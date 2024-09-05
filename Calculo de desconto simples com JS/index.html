@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+   <h1>Calculador de Desconto:</h1>
+   <label for="quantidade">Quantidade:</label>
+   <input type="number" id="quantidade" min="1">
+   <br><br>
+   <label for="precoPunidade">Preço da Unidade:</label>
+   <input type="number" id="precoPunidade" min="0.01">
+   <br><br>
+   <label for="desconto">Desconto:</label>
+   <input type="number" id="desconto" min="0" max="100">
+   <br><br>
+   <button onclick="calcPreco()">Calcular desconto!</button>
+   <div id="resultado"></div>
+   <script src="segundo.js"></script>
+</body>
+</html>
